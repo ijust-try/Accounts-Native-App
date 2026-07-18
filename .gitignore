@@ -1,0 +1,23 @@
+# Secrets — never commit real values, only .env.example
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Later, once the Expo app project exists alongside this one:
+# node_modules/
+# .expo/
+# *.jks
+# *.p8
+# *.p12
+# *.key
+# *.mobileprovision
